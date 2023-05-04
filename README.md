@@ -81,24 +81,12 @@ KsqlDB Quiz
           value_format = 'avro'
       );
       ```
-    - Create a Stream topic2 for clean data (Update later)
-      ```sql
-      CREATE STREAM foodcoded_clean WITH (
-          kafka_topic = 'foodcoded_clean'
-      )   AS
-          SELECT *
-          FROM foodcoded AS foodcoded_clean
-          EMIT CHANGES;
-      ```
-    - Create a Stream topic3 for analyze data (Update later)
-      ```sql
-      CREATE STREAM foodcoded_analyze WITH (
-          kafka_topic = 'foodcoded_analyze'
-      )   AS
-          SELECT *
-          FROM foodcoded AS foodcoded_analyze
-          EMIT CHANGES;
-      ```
+    - Create a Stream topic2 for clean data follow <foodcoded_clean.sql>
+      
+      
+    - Create a Stream topic3 for analyze data follow <foodcoded_analyze.sql>
+    
+    
     - Enter following queries to create a sink connector
       ```sql
       CREATE SINK CONNECTOR data_writer WITH (
