@@ -1,4 +1,4 @@
-CREATE STREAM foodcoded_clean WITH (kafka_topic = 'foodcoded_clean') AS 
+CREATE STREAM foodcoded_analyze WITH (kafka_topic = 'foodcoded_analyze') AS 
       SELECT
             GPA = foodcoded_clean.GPA,
             Grade = CASE WHEN (GPA = 4)   THEN 'A'
