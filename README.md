@@ -110,5 +110,5 @@ KsqlDB Quiz
       
 5. Analyzed data from Elasticsearch can be check via command
     ```batch
-    curl http://localhost:9200/foodcoded_analyze/_search?pretty
+    curl 'http://localhost:9200/foodcoded_analyze/_search?pretty'
     ```
