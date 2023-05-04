@@ -67,6 +67,7 @@ KsqlDB Quiz
           'database.password' = 'postgres-pw',
           'database.dbname' = 'customers',
           'database.server.name' = 'localhost',
+          'table.whitelist' = 'public.foodcoded',
           'transforms' = 'unwrap',
           'transforms.unwrap.type' = 'io.debezium.transforms.ExtractNewRecordState',
           'transforms.unwrap.drop.tombstones' = 'false',
