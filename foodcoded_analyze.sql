@@ -95,7 +95,8 @@ CREATE STREAM foodcoded_analyze WITH (kafka_topic = 'foodcoded_analyze') AS
                   WHEN (foodcoded_clean.fav_food = 3) THEN 'both bought at store and cooked at home'
              ELSE null END) fav_food_desc,
             foodcoded_clean.food_childhood,
-            (SUBSTRING(foodcoded_clean.food_childhood, 1, INSTR(foodcoded_clean.food_childhood, ','))) food_childhood_split,
+            (CASE WHEN INSTR(foodcoded_clean.food_childhood, ',') = 0 THEN foodcoded_clean.food_childhood 
+             ELSE (SUBSTRING(foodcoded_clean.food_childhood, 1, INSTR(foodcoded_clean.food_childhood, ',') - 1)) END) food_childhood_split,
             foodcoded_clean.fruit_day,
             (CASE WHEN (foodcoded_clean.fruit_day = 1) THEN 'very unlikely'
                   WHEN (foodcoded_clean.fruit_day = 2) THEN 'unlikely'
