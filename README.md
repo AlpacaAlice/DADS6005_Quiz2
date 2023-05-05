@@ -8,6 +8,12 @@ KsqlDB Quiz
 4. Wisarut Sarai &nbsp;&emsp;&emsp;&emsp;&emsp;&nbsp; ID: 6420422012
 5. Natchapat Youngchoay&nbsp; ID: 6420422013
 
+# Video
+- Watch full flow as youtube link below
+
+
+[![DADS6005_Quiz2](http://img.youtube.com/vi/XETbU9cY1F0/0.jpg)](https://www.youtube.com/watch?v=XETbU9cY1F0 "DADS6005 Quiz2")
+
 
 # Objective
 
