@@ -19,7 +19,8 @@ KsqlDB Quiz
 
 - Food choices College students' food and cooking preferences ([Reference](https://www.kaggle.com/datasets/borapajo/food-choices?select=food_coded.csv))
 
-
+# Diagram
+<img src="images/Diagram.png"/>
 
 
 # Procedure
