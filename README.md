@@ -40,10 +40,6 @@ KsqlDB Quiz
         ```batch
         psql -U postgres-user customers
         ```
-    - Inside Ksql, run command to check
-        ```sql
-        SHOW TABLES;
-        ```
 
 3. Run file <import_foodcoded.py> to import data from <food_coded.csv>
     ```python
