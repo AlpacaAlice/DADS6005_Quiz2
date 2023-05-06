@@ -12,7 +12,7 @@ KsqlDB Quiz
 - Watch full flow as youtube link below
 
 
-[![DADS6005_Quiz2](http://img.youtube.com/vi/XETbU9cY1F0/0.jpg)](https://www.youtube.com/watch?v=XETbU9cY1F0 "DADS6005 Quiz2")
+[![DADS6005_Quiz2](http://img.youtube.com/vi/3-rtg6LyY80/0.jpg)](https://www.youtube.com/watch?v=3-rtg6LyY80 "DADS6005 Quiz2")
 
 
 # Objective
